@@ -36,10 +36,7 @@ class ThirdPary extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 24),
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => (const AccountPage())));
+                  Navigator.of(context).pushNamed('/home');
                 },
                 child: const Text('Sign in with Password'),
               ),

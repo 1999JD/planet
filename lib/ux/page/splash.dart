@@ -24,9 +24,7 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
     _navigateToHome(context, () {
       if (!mounted) return;
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => const Home()));
-      // Navigator.pushReplacement(
-      //     context, MaterialPageRoute(builder: (context) => const Sign()));
+          context, MaterialPageRoute(builder: (context) => const Sign()));
     });
   }
 

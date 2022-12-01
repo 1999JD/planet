@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:planet/ux/page/splash.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
+import 'package:planet/route/path.dart';
 
 void main() {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      onGenerateRoute: Path.generateRoute,
       home: const Splash(),
     );
   }
