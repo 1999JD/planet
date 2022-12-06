@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:planet/ux/page/home.dart';
-import 'package:planet/ux/page/sign.dart';
+import 'package:planet/ux/page/sign/index.dart';
 
 class Splash extends StatefulWidget {
   const Splash({super.key});

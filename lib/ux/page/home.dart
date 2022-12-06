@@ -36,7 +36,6 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    final gridWidth = (MediaQuery.of(context).size.width - 24) / 2;
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
